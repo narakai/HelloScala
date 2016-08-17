@@ -70,14 +70,14 @@ object HelloWorld {
     x
   } else throw new IllegalArgumentException("x should be negative")
 
-  try {
-    scala.io.Source.fromFile("/usr/leon/sample")
-  } catch {
-    case _: MalformedInputException => println("Bad file")
-    case ex: IndexOutOfBoundsException => ex.printStackTrace()
-  } finally {
-    //do something
-  }
+//  try {
+//    scala.io.Source.fromFile("/usr/leon/sample")
+//  } catch {
+//    case _: MalformedInputException => println("Bad file")
+//    case ex: IndexOutOfBoundsException => ex.printStackTrace()
+//  } finally {
+//    //do something
+//  }
 
 
 
