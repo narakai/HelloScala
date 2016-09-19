@@ -3,7 +3,7 @@ import scala.collection.mutable.ArrayBuffer
 /**
   * Created by leon on 16/8/16.
   */
-object Array {
+object ArraySample {
   def main(args: Array[String]) {
 
   }
